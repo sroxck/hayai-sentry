@@ -2,10 +2,10 @@
  * @Author: sroxck
  * @Date: 2023-10-12 10:20:36
  * @LastEditors: sroxck
- * @LastEditTime: 2023-10-12 15:57:38
+ * @LastEditTime: 2023-10-16 16:57:08
  * @Description:
  */
-import { Body, Controller, Get, Post } from '@nestjs/common';
+import { Body, Controller, Post } from '@nestjs/common';
 import { WxhtmlService } from './wxhtml.service';
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
 import { wxhtmlDto } from './wxhtml.entity';
