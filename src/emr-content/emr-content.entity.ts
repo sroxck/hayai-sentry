@@ -2,7 +2,7 @@
  * @Author: sroxck
  * @Date: 2023-10-16 17:07:30
  * @LastEditors: sroxck
- * @LastEditTime: 2023-10-16 17:20:17
+ * @LastEditTime: 2023-10-17 09:52:07
  * @Description:
  */
 import { ApiProperty } from '@nestjs/swagger';
@@ -19,6 +19,6 @@ export class emrContentDto {
   @PrimaryGeneratedColumn('uuid')
   id: number;
   @ApiProperty({ description: 'json数据' })
-  @Column()
-  date: string;
+  @Column({ type: 'json' })
+  data: string;
 }

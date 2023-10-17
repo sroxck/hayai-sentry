@@ -5,6 +5,5 @@
   "username": "root",
   "password": "jing12345",
   "database": "wxhtml",
-  // "entities": ["dist/**/*.entity{.ts,.js}"],
-  "synchronize": true
+  "synchronize": "true"
 }
